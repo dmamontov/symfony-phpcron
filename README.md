@@ -4,7 +4,11 @@
 Symphony PHPCron
 ================
 
-PHPCron is a daemon to run tasks scheduled cron written in php, works similar to crontab
+This package can run scheduled tasks defined in a crontab file.
+
+It can parse a file in the crontab format that defines the times and the command lines strings of programs that are scheduled to run regularly.
+
+The package can start parallel processes to run the scheduled tasks when time comes.
 
 ## Requirements
 * PHP version ~5.3.3.
