@@ -1,8 +1,8 @@
 [![Latest Stable Version](https://poser.pugx.org/dmamontov/symfony-phpcron/v/stable.svg)](https://packagist.org/packages/dmamontov/symfony-phpcron)
 [![License](https://poser.pugx.org/dmamontov/symfony-phpcron/license.svg)](https://packagist.org/packages/dmamontov/symfony-phpcron)
 
-Symphony PHPCron
-================
+Symfony PHPCron
+===============
 
 This package can run scheduled tasks defined in a crontab file.
 
@@ -14,10 +14,10 @@ The package can start parallel processes to run the scheduled tasks when time co
 * PHP version ~5.3.3.
 * Module installed "pcntl" and "posix".
 * All functions "pcntl" and "posix" removed from the directive "disable_functions".
-* Symphony Console ~2.6
-* Symphony Process ~2.6
-* Symphony FileSystem ~2.6
-* Symphony Finder ~2.6
+* Symfony Console ~2.6
+* Symfony Process ~2.6
+* Symfony FileSystem ~2.6
+* Symfony Finder ~2.6
 
 ## Installation
 
